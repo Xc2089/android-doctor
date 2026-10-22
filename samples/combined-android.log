@@ -1,0 +1,8 @@
+10-22 09:42:18.211 10244 10244 E AndroidRuntime: FATAL EXCEPTION: main
+10-22 09:42:18.211 10244 10244 E AndroidRuntime: Process: com.example.camera, PID: 10244
+10-22 09:42:18.211 10244 10244 E AndroidRuntime: java.lang.UnsatisfiedLinkError: dlopen failed: library "libvision.so" not found
+10-22 09:42:18.212 10244 10244 E linker: "/data/app/com.example.camera/lib/arm64/libvision.so" is 32-bit instead of 64-bit
+10-22 09:42:18.220 10244 10244 W audit: avc: denied { read write } for path="/dev/ttyS4" scontext=u:r:untrusted_app:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file
+10-22 09:42:18.221 10244 10244 E SerialPort: failed to open /dev/ttyS4: Permission denied
+contact=developer@example.com
+

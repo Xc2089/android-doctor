@@ -1,0 +1,7 @@
+ANR in com.example.reader
+PID: 4238
+Reason: Input dispatching timed out (Application does not have a focused window)
+"main" prio=5 tid=1 Blocked
+  at com.example.reader.Database.loadAll(Database.kt:91)
+Caused by: java.lang.OutOfMemoryError: Failed to allocate a 67108880 byte allocation
+

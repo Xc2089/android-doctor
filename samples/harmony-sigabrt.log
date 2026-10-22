@@ -1,0 +1,9 @@
+Device info: OpenHarmony 5.x
+Module name: com.example.sensor
+Reason: Signal: SIGABRT(SI_TKILL) @ 0x00001234
+Fault thread info:
+Tid:1234, Name:ArkUIThread
+#00 pc 000000000006a720 /system/lib/ld-musl-aarch64.so.1(abort+20)
+#01 pc 0000000000019428 /data/storage/el1/bundle/libs/arm64/libsensor.so
+OHOS FaultLogger: fatal signal 6, abort message: invalid napi_value lifetime
+
